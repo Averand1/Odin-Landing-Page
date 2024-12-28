@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Section */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header-container {
+  background-color: #1f2937;
+  padding: 50px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  margin-top: 5px;
+  margin-bottom: 60px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.item {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px; /* Add padding to create space on the right side */
+}
+
+.hero-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.hero-para {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 5px;
+  word-wrap: break-word;
+}
+
+.placeholder-image {
+  display: flex;
+  flex-direction: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 350px;
+  margin-bottom: 40px;
+}
+
+.image {
+  height: 200px;
+  width: 250px;
+}
+
+.sign-up {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #3882f6;
+  color: white;
+  border: 1px solid #3882f6;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+/* Information section */
+.information-section {
+  display: flex;
+  justify-content: center;
+}
+
+.info-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  padding: 10px;
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid #3882f6;
+  background-color: white;
+  color: #fff;
+  margin: 10px;
+  overflow: hidden; /* Ensure the image does not overflow the card */
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire card */
+}
+
+.box-text {
+  color: #1f2937;
+  display: flex;
+  flex-flow: flex wrap;
+  justify-content: center;
+}
+
+.box-para {
+  margin: 0 10px;
+  max-width: 200px;
+  word-wrap: break-word;
+}
+/* Quote Section */
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 100px;
+}
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quote-para {
+  font-size: 24px;
+  font-weight: 10px;
+  font-style: italic;
+  word-wrap: break-word;
+}
+.quote-footer {
+  margin-left: 1200px;
+  flex-flow: row-reverse wrap;
+  font-weight: 900;
+}
+
+/* Call To Action */
+
+.cta-section {
+  background-color: white;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  margin: 100px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-items {
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cta-button {
+  display: flex;
+  align-self: flex-end;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  margin-right: 70px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: white;
+  border: 1px solid white;
+}
+/* Footer Section */
+.footer-section {
+  background-color: #1f2937;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
